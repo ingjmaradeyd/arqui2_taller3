@@ -1,0 +1,110 @@
+# ==========================================
+# Terraform
+# ==========================================
+.idea
+
+
+# Directorios generados por Terraform
+**/.terraform/*
+
+# Archivos de estado
+*.tfstate
+*.tfstate.*
+
+# Archivos de crash
+crash.log
+crash.*.log
+
+# Planes de Terraform
+*.tfplan
+*.plan
+
+# Archivos de variables que pueden contener secretos
+*.tfvars
+*.tfvars.json
+
+# Archivos override
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration
+.terraformrc
+terraform.rc
+
+
+# ==========================================
+# AWS / Credenciales
+# ==========================================
+
+.aws/
+credentials
+
+# Variables de entorno / secretos
+.env
+.env.*
+*.env
+
+# Claves
+*.pem
+*.key
+*.p12
+*.pfx
+
+
+# ==========================================
+# macOS
+# ==========================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+
+
+# ==========================================
+# IntelliJ / JetBrains
+# ==========================================
+
+.idea/
+*.iml
+*.iws
+*.ipr
+
+
+# ==========================================
+# Visual Studio Code
+# ==========================================
+
+.vscode/
+
+
+# ==========================================
+# Archivos temporales
+# ==========================================
+
+*.tmp
+*.temp
+*.log
+*.bak
+*.swp
+*.swo
+*~
+
+
+# ==========================================
+# Resultados de pruebas / K6
+# ==========================================
+
+results/
+performance-results/
+*.csv
+*.json
+
+
+# ==========================================
+# Archivos generados por scripts
+# ==========================================
+
+/tmp/
+temp/
